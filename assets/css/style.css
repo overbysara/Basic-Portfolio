@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    text-align: center;
+    margin: 0;
+    padding: 0;
 }
   
 body {
@@ -8,32 +9,29 @@ body {
     font-size: 18px;
     color: grey;
     line-height: 28px;
-}
-
-header {
-    border-bottom: 2px solid #ccc;
+    position: relative;
+    margin: 20px;
 }
   
+/* Header */
+
+header {
+    border-bottom: 2px solid #DADADA;
+}
+
+.container {
+    margin: 0px;
+    background: white;
+    width: 100%;
+}
+
 .topbar {
     width: 960px;
     margin: 0 auto;
 	clear: both;
     overflow: hidden;
-}
-
-h1 {
-	font-size: 30px;
-    border-bottom: 2px solid #ccc;
-    display: inline-block;
-}
-
-/* Header */
-
-nav {
-    float: right;
-    padding: 40px;
-    margin: 30px;
-
+    background: #fff;
+    text-align: center;
 }
 
 #name {
@@ -44,30 +42,59 @@ nav {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 30px;
     padding: 40px;
-    margin: 30px;
-    border: 20px;
+    margin: 0px;
+    border: 40px;
 	font-weight: bold;
 }
-  
+
+nav {
+    float: right;
+    padding: 40px;
+    margin: 30px;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: #777777;
+    word-spacing: 4px;
+}
+
+h1 {
+	font-size: 30px;
+    align: left;
+    color: #4aaaa5;
+}
+
+.container2 {
+    background-image: url("../../assets/images/background.jpg");
+}
+
 .main {
-    background-image: url("/assets/images/background.jpg");
     width: 960px;
 	margin: 0 auto;
-	clear: both;
-    overflow: hidden;
-    border: #666666
+    border: #666666;
+    height: 785px;
+    margin-top: 0px;
+    padding: 30px;
+    position: relative;
+    background: white;
 }
+
 
 #selfie {
     padding: 20px;
     margin-bottom: 20px;
     float: left;
     position: absolute;
-    clear: left;
 }
 
 img {
     float: left;
+    margin: 20px;
 }
 
   
@@ -78,6 +105,7 @@ img {
 	line-height: 50px;
 	margin-top: 40px;
 	border-top: 8px solid #4aaaa5;
-	font-size: 12px;
+    font-size: 12px;
+    widows: 100%;
 }
   
