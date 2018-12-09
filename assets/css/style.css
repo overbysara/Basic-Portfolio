@@ -10,7 +10,6 @@ body {
     color: grey;
     line-height: 28px;
     position: relative;
-    margin: 20px;
 }
   
 /* Header */
@@ -63,27 +62,27 @@ li a {
     word-spacing: 4px;
 }
 
+/* Main */
+
+.container2 {
+    background-image: url("../../assets/images/background.jpg");
+}
+
 h1 {
 	font-size: 30px;
     align: left;
     color: #4aaaa5;
 }
 
-.container2 {
-    background-image: url("../../assets/images/background.jpg");
-}
-
 .main {
     width: 960px;
+    height: 680px;
 	margin: 0 auto;
     border: #666666;
-    height: 785px;
-    margin-top: 0px;
     padding: 30px;
     position: relative;
     background: white;
 }
-
 
 #selfie {
     padding: 20px;
@@ -92,20 +91,87 @@ h1 {
     position: absolute;
 }
 
+
 img {
     float: left;
     margin: 20px;
 }
 
+/* Contact */
+
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+#contact-form li {
+    margin-bottom: 10px;
+}
+  
+label,
+input[type=text],
+input[type=nam],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+}
+  
+input[type=text],
+input[type=nam],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+  
+textarea {
+    height: 200px;
+}
+  
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    background: #4aaaa5;
+    border: 0 none;
+}
+
+/* Portfolio */
+
+.pleasework {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 10px;
+    overflow: auto;
+  }
+  
+h3 {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 200px;
+    padding: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    font-family: "Georgia";
+    font-size: 22px;
+}
+
+/* Footer */
   
 .footer {
 	text-align: center;
 	background-color: #666666;
 	color: #ffffff;
 	line-height: 50px;
-	margin-top: 40px;
 	border-top: 8px solid #4aaaa5;
     font-size: 12px;
-    widows: 100%;
+    clear: both;
 }
   
